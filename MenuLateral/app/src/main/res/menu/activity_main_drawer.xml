@@ -3,7 +3,7 @@
 
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_home" android:icon="@mipmap/ic_home"
+        <item android:id="@+id/nav_home" android:icon="@mipmap/ic_launcher_home"
             android:title="Home" />
         <item android:id="@+id/nav_energia_livre" android:icon="@drawable/ic_energia_livre"
             android:title="Energia Livre" />
