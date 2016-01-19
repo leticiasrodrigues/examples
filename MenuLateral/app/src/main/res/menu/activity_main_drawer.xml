@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
-            android:title="Import" />
-        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:id="@+id/nav_home" android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/nav_energia_livre" android:icon="@drawable/ic_energia_livre"
+            android:title="Energia Livre" />
+        <item android:id="@+id/nav_adv_amiga" android:icon="@drawable/ic_ada"
+            android:title="Adversidade Amiga" />
+        <item android:id="@+id/nav_gen_vitoria" android:icon="@drawable/ic_gen"
+            android:title="GEN Vitória" />
+        <item android:id="@+id/nav_foco" android:icon="@drawable/ic_focus"
+            android:title="Foco" />
+        <item android:id="@+id/nav_grupos" android:icon="@drawable/ic_group"
+            android:title="Grupos" />
+        <item android:id="@+id/nav_ajuda" android:icon="@drawable/ic_help"
+            android:title="Ajuda" />
+        <item android:id="@+id/nav_config" android:icon="@drawable/ic_settings"
+            android:title="Configurações" />
     </group>
 
-    <item android:title="Communicate">
+ <!--   <item android:title="Communicate">
         <menu>
             <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
                 android:title="Share" />
@@ -20,5 +29,5 @@
                 android:title="Send" />
         </menu>
     </item>
-
+-->
 </menu>
