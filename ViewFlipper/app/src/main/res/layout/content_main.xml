@@ -11,16 +11,20 @@
     android:orientation="vertical"
     android:background="#f5f5f5" >
 
+    <com.example.taqtile.viewflipper.AViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.example.taqtile.viewflipper.AViewFlipper>
+
+
+
+
 
     <ViewFlipper
         android:id="@+id/viewflipper"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_margin="6dp">
-
-
-
-
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -71,6 +75,8 @@
 
         </LinearLayout>
     </ViewFlipper>
+
+
 
     <TextView android:text="Hello World!" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
